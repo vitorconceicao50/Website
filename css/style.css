@@ -7,17 +7,14 @@
 ::-webkit-scrollbar{
 	width: 10px;
 }
-
 ::-webkit-scrollbar-track{
 	border-radius: 5px;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
 }
-
 ::-webkit-scrollbar-thumb{
 	border-radius: 5px;
 	background-color: #ec183893;
 }
-
 ::-webkit-scrollbar-thumb:hover{
 	background-color: #6dcdb1;
 }
@@ -266,11 +263,11 @@ input,textarea,select{
     border: 1px solid #d4d4e3;
     cursor: pointer;
     position: fixed;
-    left: 300px;
+    right: 300px;
     top: 20px;
     z-index: 11;
     border-radius: 5px;
-    background-color: #fdf9ff;
+    background-color: #fdf9ffce;
     /*display: -ms-flexbox;
     display: flex;*/
     display: none;
@@ -647,7 +644,7 @@ input,textarea,select{
     left: 0;
     width: 100%;
     height: 300px;
-    min-width: 492px;
+    min-width: 500px;
 	min-height: 300px;
     display: block;
     z-index: 2;
@@ -909,7 +906,7 @@ input,textarea,select{
     .aside .nav-toggler {
         display: -ms-flexbox;
         display: flex;
-        left: 30px;
+        right: 30px;
     }
     .aside .nav-toggler.open {
         left: 300px;
@@ -959,5 +956,8 @@ input,textarea,select{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .personal-info .row {
+        display: inline-block;
     }
 }
