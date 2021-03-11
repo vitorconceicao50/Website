@@ -13,12 +13,8 @@ $subject = "contacto - vitorconceicao 3d";
 $body = "Name: ".$name. "\r\n".
         "Email: ".$email. "\r\n".
         "Message: ".$message; 
-$header = "From:vitorconceicao_3d@outlook.com"."\r\n".
-            "Reply-To:".$email."\r\n".
-            "X=Mailer:PHP/".phpversion();
-
-
-if(mail($to,$subject,$body,$header)) {
+        
+if(mail($to,$subject,$body)) {
 
     echo("Email successfully sent!");
 
