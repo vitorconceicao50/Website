@@ -15,8 +15,7 @@ $body = "Name: ".$name. "\r\n".
         "Message: ".$message; 
 $header = "From:vitorconceicao_3d@outlook.com"."\r\n".
             "Reply-To:".$email."\e\n".
-            "X=Mailer:PHP/".phpversion(); true, 200;
-            
+            "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)) {
 
